@@ -9,9 +9,9 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <WebView Source="https://www.tptlive.ee/category/uudised/"
+                     HeightRequest="1000"
+                     WidthRequest="1000" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

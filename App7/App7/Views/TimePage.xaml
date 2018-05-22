@@ -8,10 +8,6 @@
         <vm:TimesViewModel/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Image Source="https://i.imgur.com/lat74Jx.png" WidthRequest="1000" HeightRequest="1000" ></Image>
     </ContentPage.Content>
 </ContentPage>

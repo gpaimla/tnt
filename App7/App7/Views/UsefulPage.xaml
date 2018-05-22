@@ -7,11 +7,17 @@
     <ContentPage.BindingContext>
         <vm:UsefulViewModel/>
     </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#2196F3</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Vertical">
+            <Button Margin="0,0,0,0" Text="Siseveeb" Command="{Binding OpenWebSiseveeb}" BackgroundColor="{StaticResource Primary}" TextColor="White" WidthRequest="1000" />
+            <Button Margin="0,0,0,0" Text="Söökla" Command="{Binding OpenWebSookla}" BackgroundColor="{StaticResource Primary}" TextColor="White" WidthRequest="1000" />
+            <Button Margin="0,0,0,0" Text="Õppetoetused" Command="{Binding OpenWebToetused}" BackgroundColor="{StaticResource Primary}" TextColor="White" WidthRequest="1000" />
+            <Button Margin="0,0,0,0" Text="Sisekorraeeskiri" Command="{Binding OpenWebSisekord}" BackgroundColor="{StaticResource Primary}" TextColor="White" WidthRequest="1000" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

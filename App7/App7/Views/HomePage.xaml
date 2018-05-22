@@ -8,10 +8,11 @@
         <vm:HomeViewModel/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to HomePage"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Vertical">
+            <Image Source="{Binding ImageUriSource}"></Image>
+            <WebView Source="http://naistekas.delfi.ee/foorum/read.php?35,10160629"
+                     HeightRequest="1000"
+                     WidthRequest="1000" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
