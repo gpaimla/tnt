@@ -10,7 +10,7 @@ namespace App7.Views
 	{
 		public AboutPage ()
 		{
-			InitializeComponent ();
+			
 		}
 	}
 }
