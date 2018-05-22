@@ -11,7 +11,7 @@
                 </OnPlatform>
             </NavigationPage.Icon>
             <x:Arguments>
-                <views:ItemsPage />
+                <views:HomePage/>
             </x:Arguments>
         </NavigationPage>
         
@@ -22,7 +22,7 @@
                 </OnPlatform>
             </NavigationPage.Icon>
             <x:Arguments>
-                <views:AboutPage />
+                <views:TimePage />
             </x:Arguments>
         </NavigationPage>
 
@@ -33,7 +33,7 @@
                 </OnPlatform>
             </NavigationPage.Icon>
             <x:Arguments>
-                <views:AboutPage />
+                <views:NewsPage />
             </x:Arguments>
         </NavigationPage>
 
@@ -44,7 +44,7 @@
                 </OnPlatform>
             </NavigationPage.Icon>
             <x:Arguments>
-                <views:AboutPage />
+                <views:UsefulPage />
             </x:Arguments>
         </NavigationPage>
 
@@ -55,7 +55,7 @@
                 </OnPlatform>
             </NavigationPage.Icon>
             <x:Arguments>
-                <views:AboutPage />
+                <views:TimetablePage />
             </x:Arguments>
         </NavigationPage>
 
