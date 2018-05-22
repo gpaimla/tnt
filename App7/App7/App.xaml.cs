@@ -2,6 +2,9 @@
 using Xamarin.Forms;
 using App7.Views;
 using Xamarin.Forms.Xaml;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace App7
@@ -19,7 +22,10 @@ namespace App7
 
 		protected override void OnStart ()
 		{
-			// Handle when your app starts
+			AppCenter.Start("android=5261e17b-cd91-4d5d-ad8f-cd736731ae4e;" +
+			                "uwp={Your UWP App secret here};" +
+			                "ios={Your iOS App secret here}",
+				typeof(Analytics), typeof(Crashes));
 		}
 
 		protected override void OnSleep ()
